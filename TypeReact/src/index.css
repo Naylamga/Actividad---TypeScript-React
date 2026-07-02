@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+  --color-titulo:#5a4968;
+  --color-efectos:#503db3;
+  --color-tarjetas:#e7e2f1;
+}

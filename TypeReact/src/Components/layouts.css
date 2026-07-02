@@ -1,0 +1,101 @@
+.encabezado {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: whitesmoke;
+    border-bottom: 3px solid var(--color-tarjetas);
+}
+
+.encabezado img {
+    height: 150px; 
+    object-fit: contain;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-titulo);
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: var(--color-efectos); 
+}
+
+.btnContactos {
+    background-color: var(--color-titulo);
+    color: white !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.intermedio img {
+    height: 60vh; 
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tarjetas {
+    background: var(--color-tarjetas);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d0c1ec;
+}
+
+.tarjetas h1 {
+    font-size: 20px;
+    color: var(--color-titulo);
+    margin-bottom: 10px;
+}
+
+.tarjetas img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.tarjetas h2 {
+    font-size: 18px;
+    color: var(--color-efectos);
+    margin-bottom: 8px;
+}
+
+.tarjetas p {
+    font-size: 14px;
+    color: var(--color-titulo);
+}
+
+.pie-pagina {
+    background-color: whitesmoke;
+    border-top: 3px solid var(--color-tarjetas);
+    color: var(--color-titulo);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
